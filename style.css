@@ -1,0 +1,59 @@
+.boss{
+    display: flex;
+    flex-direction:row;
+    background-color: lawngreen;
+    width: 2000px;
+    height:2000px;
+}
+    .sos1{
+        background-color: rgb(250, 0, 0);
+        height:300px;
+        width: 300px;
+    }
+    .sos2 {
+        background-color: rgb(0, 89, 255);
+        height:300px;
+        width: 300px;
+
+    }
+    .sos3 {
+        background-color: rgb(234, 0, 255);
+        height:300px;
+        width: 300px;
+    }
+    .sos4 {
+        background-color: rgb(151, 38, 226);
+        height:300px;
+        width: 300px; }
+
+
+p{font-size: 60px;}
+
+
+
+@media screen and (max-width:1200px){
+.boss{
+    flex-direction: column;
+
+} 
+body{
+    background-color: black;
+}
+.sos1{
+    order:2;
+    color:rgb(146, 197, 27);
+}
+.sos2{
+    order:1;
+    color:rgb(255, 0, 85);
+}
+.sos4{
+    order:4;
+    color:rgb(158, 77, 158);
+}
+.sos3{
+    order:3;
+    color:rgb(0, 255, 149);
+}
+}
+  
